@@ -4,3 +4,6 @@ def solution(n):
             return False
     
     return True
+
+def solutionV2(n):
+    return all([int(x) % 2 == 0 for x in str(n)])
