@@ -5,3 +5,6 @@ def solution(name):
         if not c.isdigit() and not c.isalpha() and not c == "_":
             return False
     return True
+
+def solutionV2(name):
+    return name.isidentifier()
