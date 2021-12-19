@@ -12,3 +12,6 @@ def solution(time):
         return False
         
     return True
+
+def solutionV2(time):
+    return int(time[:2]) < 24 and int(time[-2:]) < 60
